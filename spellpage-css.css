@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+
+body{
+    background: url(discord_brick.png);
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgba(0,0,0, 0.55);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.item1{
+    font-family: 'quicksand', sans-serif;
+    color: white;
+    font-size: 50px;
+
+}
+
+
+.item2 {
+    
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+
+body {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(
+            rgba(29, 38, 81, 0.95),
+            rgba(0, 0, 0, 0)),
+        url(background-tower.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.grid-container {
+    margin-top: 1fr;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-box {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.centerWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.box1 {
+    grid-column: 1/5;
+}
+
+.box6 {
+    grid-column: 1/5;
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.box8{
+    grid-column: 1/5;
+    color: white;
+    font-size: 20px;
+    font-family: 'quicksand', sans-serif;
+}
+
+.logo {
+    height: auto;
+    width: 50%;
+}
+
+
+
+.socIcon {
+   margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.box3 {
+   grid-column: 1/5; 
+}
+
+.box7{
+    grid-column: 1/5;
+}
+
+.twitter {
+    background: url(twitter-export.png) no-repeat;
+}
+.twitter:hover {
+    cursor: pointer;
+    background: url(twitter_hover-export.png) no-repeat;
+}
+
+.steam {
+    background: url(steam.png);
+}
+
+.steam:hover {
+    cursor: pointer;
+    background: url(steam_hover.png);
+}
+
+.itch {
+    background: url(itch.png) no-repeat;
+}
+.itch:hover {
+    cursor: pointer;
+    background: url(itch_hover.png) no-repeat;
+}
+
+.discord {
+    background: url(discord.png) no-repeat;
+}
+.discord:hover {
+    cursor: pointer;
+    background: url(discord_hover.png) no-repeat;
+}
+
+.screenshot {
+    border-radius: 5px;
+    width: 180px;
+    height: 90px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shot1 {
+    background: url(screenshot_1.jpg);
+    background-size: cover;
+}
+
+.shot2 {
+   background: url(screenshot_2.jpg);
+    background-size: cover; 
+}
+
+.shot3 {
+    background: url(screenshot_3.jpg);
+    background-size: cover;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.65);
+    cursor: pointer;
+}
+
+#imageShow {
+    display:flex;
+    justify-content: center;
+}
+
+.img-overlay{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+
+.spellbook {
+   padding-left: 10px;
+}
+
+.spellLink:visited {
+    color: white;
+    text-decoration: none;
+}
+.spellLink:link{
+    color: white;
+    text-decoration: none;
+}

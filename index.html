@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="talif-landing-css.css">
+</head>
+
+<body>
+    <div class="centerWrapper">
+        <div class="grid-container">
+            <div class="grid-box box1"><img class="logo" src="Logo_transparent.png"></div>
+            <div class="grid-box box3">
+                <a href="https://twitter.com/Zatcharyah" target="_blank"> <div class="socIcon twitter"></div></a>
+                <a href="https://store.steampowered.com/app/1145400/Talifs_Journey/" target="_blank"><div class="socIcon steam"></div></a>
+                <a href="https://zatcharyah.itch.io/talifs-journey" target="_blank"><div class="socIcon itch"></div></a>
+                <a href="" target="_blank"><div class="socIcon discord"></div></a>
+            </div>
+            <div class="grid-box box6">Become a Wizard</div>
+            <div class="grid-box box7">
+                <div class="screenshot shot1" onclick="on('https://talifsjourney.com/screenshot_1.jpg')"></div>
+                <div class="screenshot shot2" onclick="on('https://talifsjourney.com/screenshot_2.jpg')"></div>
+                <div class="screenshot shot3" onclick="on('https://talifsjourney.com/screenshot_3.jpg')"></div>
+            </div>
+            <div class="grid-box box6">Coming 2020</div>
+            <div class="grid-box box8"><a class="spellLink link" href="spellpage.html">&#171; Psst, looking for a Spellbook? &#187;<img class="spellbook" src="spellbook_icon.png"></a></div>
+        </div>
+    </div>
+    <div id="overlay" onclick="off()">
+    <div class="img-overlay">
+    <img id="imgOverlay" src="" onclick="off()">
+    </div>
+    </div>
+    <script>
+            function on(imgPath){
+                document.getElementById("imgOverlay").src = imgPath;
+                document.getElementById("overlay").style.display = "block";
+            }
+            function off(){
+                document.getElementById("overlay").style.display = "none";
+            }
+            </script>
+</body>
+</html>
