@@ -1,0 +1,13 @@
+body{
+    background: url(images/discord_brick.png);
+}
+
+.grid-container{
+    display: grid;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.flex-container{
+    display:flex;
+}

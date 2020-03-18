@@ -16,7 +16,7 @@ body {
         linear-gradient(
             rgba(29, 38, 81, 0.95),
             rgba(0, 0, 0, 0)),
-        url(background-tower.png) center center no-repeat;
+        url(images/background-tower.png) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
@@ -82,36 +82,36 @@ body {
 }
 
 .twitter {
-    background: url(twitter-export.png) no-repeat;
+    background: url(images/twitter-export.png) no-repeat;
 }
 .twitter:hover {
     cursor: pointer;
-    background: url(twitter_hover-export.png) no-repeat;
+    background: url(images/twitter_hover-export.png) no-repeat;
 }
 
 .steam {
-    background: url(steam.png);
+    background: url(images/steam.png);
 }
 
 .steam:hover {
     cursor: pointer;
-    background: url(steam_hover.png);
+    background: url(images/steam_hover.png);
 }
 
 .itch {
-    background: url(itch.png) no-repeat;
+    background: url(images/itch.png) no-repeat;
 }
 .itch:hover {
     cursor: pointer;
-    background: url(itch_hover.png) no-repeat;
+    background: url(images/itch_hover.png) no-repeat;
 }
 
 .discord {
-    background: url(discord.png) no-repeat;
+    background: url(images/discord.png) no-repeat;
 }
 .discord:hover {
     cursor: pointer;
-    background: url(discord_hover.png) no-repeat;
+    background: url(images/discord_hover.png) no-repeat;
 }
 
 .screenshot {
@@ -123,17 +123,17 @@ body {
 }
 
 .shot1 {
-    background: url(screenshot_1.jpg);
+    background: url(images/screenshot_1.jpg);
     background-size: cover;
 }
 
 .shot2 {
-   background: url(screenshot_2.jpg);
+   background: url(images/screenshot_2.jpg);
     background-size: cover; 
 }
 
 .shot3 {
-    background: url(screenshot_3.jpg);
+    background: url(images/screenshot_3.jpg);
     background-size: cover;
 }
 
@@ -170,11 +170,11 @@ body {
    padding-left: 10px;
 }
 
-.spellLink:visited {
+.spell-link:visited {
     color: white;
     text-decoration: none;
 }
-.spellLink:link{
+.spell-link:link{
     color: white;
     text-decoration: none;
 }
